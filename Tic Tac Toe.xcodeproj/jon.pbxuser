@@ -1,0 +1,155 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FC28419012948A4D006FFC19 /* Tic Tac Toe */;
+		activeTarget = 8DD76F620486A84900D96B5E /* Tic Tac Toe */;
+		addToTargets = (
+			8DD76F620486A84900D96B5E /* Tic Tac Toe */,
+		);
+		codeSenseManager = FC28419A12948A55006FFC19 /* Code sense */;
+		executables = (
+			FC28419012948A4D006FFC19 /* Tic Tac Toe */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 311724621;
+			PBXWorkspaceStateSaveDate = 311724621;
+		};
+		perUserProjectItems = {
+			FC2841A412948D07006FFC19 /* PBXTextBookmark */ = FC2841A412948D07006FFC19 /* PBXTextBookmark */;
+			FC2841A512948D07006FFC19 /* PBXTextBookmark */ = FC2841A512948D07006FFC19 /* PBXTextBookmark */;
+			FC2841A612948D07006FFC19 /* PBXTextBookmark */ = FC2841A612948D07006FFC19 /* PBXTextBookmark */;
+			FC2841A712948D07006FFC19 /* PBXTextBookmark */ = FC2841A712948D07006FFC19 /* PBXTextBookmark */;
+		};
+		sourceControlManager = FC28419912948A55006FFC19 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 426}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 143}";
+		};
+	};
+	8DD76F620486A84900D96B5E /* Tic Tac Toe */ = {
+		activeExec = 0;
+		executables = (
+			FC28419012948A4D006FFC19 /* Tic Tac Toe */,
+		);
+	};
+	FC28419012948A4D006FFC19 /* Tic Tac Toe */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Tic Tac Toe";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FC28419912948A55006FFC19 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FC28419A12948A55006FFC19 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FC28419C12948B6E006FFC19 /* Paths.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 426}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 137}";
+		};
+	};
+	FC28419F12948B77006FFC19 /* Path.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 426}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 136}";
+		};
+	};
+	FC2841A412948D07006FFC19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 143;
+		vrLoc = 0;
+	};
+	FC2841A512948D07006FFC19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC28419C12948B6E006FFC19 /* Paths.h */;
+		name = "Paths.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 137;
+		vrLoc = 0;
+	};
+	FC2841A612948D07006FFC19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC28419F12948B77006FFC19 /* Path.h */;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+		rType = 0;
+	};
+	FC2841A712948D07006FFC19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC28419F12948B77006FFC19 /* Path.h */;
+		name = "Path.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 136;
+		vrLoc = 0;
+	};
+}
