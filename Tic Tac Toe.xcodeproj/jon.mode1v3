@@ -330,12 +330,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FC2841A712948D07006FFC19</string>
+										<string>FCBB6ECD129491A300CE2F78</string>
 										<key>history</key>
 										<array>
 											<string>FC2841A412948D07006FFC19</string>
 											<string>FC2841A512948D07006FFC19</string>
-											<string>FC2841A612948D07006FFC19</string>
+											<string>FC2841A712948D07006FFC19</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -393,9 +393,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FC28419412948A55006FFC19</string>
+				<string>FCBB6ECE129491A300CE2F78</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>FC28419512948A55006FFC19</string>
+				<string>FCBB6ECF129491A300CE2F78</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -534,7 +534,7 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>FC28419712948A55006FFC19</string>
-		<string>/Users/jon/Developer/Tic Tac Toe/Tic Tac Toe.xcodeproj</string>
+		<string>/Users/jon/Developer/Mercurial/tic-tac-toe/Tic Tac Toe.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>325 374 788 504 0 0 1440 878 </string>
@@ -614,7 +614,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>FC28419712948A55006FFC19</string>
-				<string>FC28419812948A55006FFC19</string>
+				<string>FCBB6ED0129491A300CE2F78</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
