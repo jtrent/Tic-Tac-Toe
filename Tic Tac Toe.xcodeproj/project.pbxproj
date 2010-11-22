@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		8DD76F650486A84900D96B5E /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cc */; settings = {ATTRIBUTES = (); }; };
 		8DD76F6A0486A84900D96B5E /* Tic Tac Toe.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* Tic Tac Toe.1 */; };
-		FC28419E12948B6E006FFC19 /* Paths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC28419D12948B6E006FFC19 /* Paths.cpp */; };
-		FC2841A112948B77006FFC19 /* Path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC2841A012948B77006FFC19 /* Path.cpp */; };
+		FC28419E12948B6E006FFC19 /* Paths.cc in Sources */ = {isa = PBXBuildFile; fileRef = FC28419D12948B6E006FFC19 /* Paths.cc */; };
+		FC2841A112948B77006FFC19 /* Path.cc in Sources */ = {isa = PBXBuildFile; fileRef = FC2841A012948B77006FFC19 /* Path.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,13 +27,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		08FB7796FE84155DC02AAC07 /* main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
 		8DD76F6C0486A84900D96B5E /* Tic Tac Toe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tic Tac Toe"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859E8B029090EE04C91782 /* Tic Tac Toe.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "Tic Tac Toe.1"; sourceTree = "<group>"; };
-		FC28419C12948B6E006FFC19 /* Paths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Paths.h; sourceTree = "<group>"; };
-		FC28419D12948B6E006FFC19 /* Paths.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Paths.cpp; sourceTree = "<group>"; };
-		FC28419F12948B77006FFC19 /* Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Path.h; sourceTree = "<group>"; };
-		FC2841A012948B77006FFC19 /* Path.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Path.cpp; sourceTree = "<group>"; };
+		FC28419C12948B6E006FFC19 /* Paths.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Paths.hh; sourceTree = "<group>"; };
+		FC28419D12948B6E006FFC19 /* Paths.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Paths.cc; sourceTree = "<group>"; };
+		FC28419F12948B77006FFC19 /* Path.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Path.hh; sourceTree = "<group>"; };
+		FC2841A012948B77006FFC19 /* Path.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Path.cc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +60,11 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				08FB7796FE84155DC02AAC07 /* main.cpp */,
-				FC28419C12948B6E006FFC19 /* Paths.h */,
-				FC28419D12948B6E006FFC19 /* Paths.cpp */,
-				FC28419F12948B77006FFC19 /* Path.h */,
-				FC2841A012948B77006FFC19 /* Path.cpp */,
+				08FB7796FE84155DC02AAC07 /* main.cc */,
+				FC28419C12948B6E006FFC19 /* Paths.hh */,
+				FC28419D12948B6E006FFC19 /* Paths.cc */,
+				FC28419F12948B77006FFC19 /* Path.hh */,
+				FC2841A012948B77006FFC19 /* Path.cc */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
-				FC28419E12948B6E006FFC19 /* Paths.cpp in Sources */,
-				FC2841A112948B77006FFC19 /* Path.cpp in Sources */,
+				8DD76F650486A84900D96B5E /* main.cc in Sources */,
+				FC28419E12948B6E006FFC19 /* Paths.cc in Sources */,
+				FC2841A112948B77006FFC19 /* Path.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -270,18 +270,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>6</integer>
+									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 445}}</string>
+							<string>{{0, 0}, {186, 485}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -293,14 +288,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 463}}</string>
+						<string>{{0, 0}, {203, 503}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>325 374 788 504 0 0 1440 878 </string>
+						<string>463 334 977 544 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -318,7 +313,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Path.h</string>
+								<string>main.cc</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,16 +321,18 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Path.h</string>
+										<string>main.cc</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FCBB6ECD129491A300CE2F78</string>
+										<string>FC9981D9129B15B600771D6B</string>
 										<key>history</key>
 										<array>
-											<string>FC2841A412948D07006FFC19</string>
-											<string>FC2841A512948D07006FFC19</string>
-											<string>FC2841A712948D07006FFC19</string>
+											<string>FC6393ED129A393C00EAF766</string>
+											<string>FC6393EE129A393C00EAF766</string>
+											<string>FC6393EF129A393C00EAF766</string>
+											<string>FC6393F0129A393C00EAF766</string>
+											<string>FC74694B129AE5D800BECB4E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -347,14 +344,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 458}}</string>
+								<string>{{0, 0}, {769, 498}}</string>
 								<key>RubberWindowFrame</key>
-								<string>325 374 788 504 0 0 1440 878 </string>
+								<string>463 334 977 544 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>458pt</string>
+							<string>498pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -367,9 +364,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 463}, {580, 0}}</string>
+								<string>{{0, 503}, {769, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>325 374 788 504 0 0 1440 878 </string>
+								<string>463 334 977 544 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -378,7 +375,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>580pt</string>
+					<string>769pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -393,9 +390,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FCBB6ECE129491A300CE2F78</string>
+				<string>FC9981DA129B15B600771D6B</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>FCBB6ECF129491A300CE2F78</string>
+				<string>FC9981DB129B15B600771D6B</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -537,7 +534,7 @@
 		<string>/Users/jon/Developer/Mercurial/tic-tac-toe/Tic Tac Toe.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>325 374 788 504 0 0 1440 878 </string>
+	<string>463 334 977 544 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -614,7 +611,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>FC28419712948A55006FFC19</string>
-				<string>FCBB6ED0129491A300CE2F78</string>
+				<string>FC9981DC129B15B600771D6B</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
