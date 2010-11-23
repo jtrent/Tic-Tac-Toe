@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <string>
+#include <time.h>
 
 using namespace std;
 
@@ -35,31 +36,50 @@ enum Player {
 };
 
 void
-switchPlayer(Player currentPlayer);
-
+switchPlayer(Player &currentPlayer);
 void
-printGameBoard(char gameBoard[3][3]);
+printGameBoard(char gameBoard[9][2]);
+string
+printTime();
+bool
+checkWin(char gameBoard[9][2]);
+bool
+checkPath(char square1, char square2, char square3);
 
 int
 main(int argc, char * const argv[]) {
-    GameState gameState = MAINMENU;
-    Player currentPlayer = X;
-    string input;
-    char gameBoard[3][3];
-    int i;
-    int j;
-    int number;
-    int square;
+    GameState   gameState;
+    Player      currentPlayer;
+    string      input;
+    string      log;
+    char        gameBoard[9][2];
+    char        marker;
+    int         i;
+    int         j;
+    int         number;
+    int         square;
+    bool        hasGone;
+    
+    // Initialize variables.
+    gameState =     MAINMENU;
+    currentPlayer = X;
+    input =         "";
+    log =           "";
+    i =             0;
+    j =             0;
+    number =        49;
+    square =        0;
+    hasGone =       false;
     
     // Initialize gameBoard.
-    number = 49;
-    
-    for (i = 0; i < 3; i++) {
-        for (j = 0; j < 3; j++) {
-            gameBoard[i][j] = (char)number;
-            number++;
-        }
+    for (i = 0; i < 9; i++) {
+        gameBoard[i][0] = (char)number;
+        gameBoard[i][1] = '0';
+        number++;
     }
+    
+    log += printTime();
+    log += " Program started\n";
     
     while (input != "q") {
         if (gameState == MAINMENU) {
@@ -71,6 +91,9 @@ main(int argc, char * const argv[]) {
             
             // If s is typed, we need to change the state to GAME to start playing.
             if (input == "s") {
+                log += printTime();
+                log += " Game started\n";
+                
                 gameState = GAME;
             }
         } else if (gameState == GAME) {
@@ -84,15 +107,71 @@ main(int argc, char * const argv[]) {
             
             cout << endl;
             cout << "Please type a number [1..9] to select your square." << endl;
-            cout << "Then type \"n\" to switch to the next player." << endl;
+            cout << "Then type [n] to switch to the next player." << endl;
             
             printGameBoard(gameBoard);
             
             // int square = atoi(input.c_str());
+            // if input is n, switch to next player
+            // else if input is a number...
+            //   if number isn't taken, update the square with player's marker.
+            //   else, number is taken, try again.
+            
             cin >> input;
             
+            if (input == "n") {
+                switchPlayer(currentPlayer);
+                hasGone = false;
+            } else if (input != "q") {
+                square = atoi(input.c_str()) - 1;
+                
+                if (gameBoard[square][1] == '0') {
+                    if (currentPlayer == X) {
+                        marker = 'X';
+                    } else {
+                        marker = 'O';
+                    }
+                    
+                    gameBoard[square][0] = marker;
+                    gameBoard[square][1] = 1;
+                    
+                    if (!hasGone) {
+                        hasGone = true;
+                    } else {
+                        log += printTime();
+                        log += " Player ";
+                        
+                        if (currentPlayer == X) {
+                            log += "X";
+                        } else {
+                            log += "O";
+                        }
+                        
+                        log += " went again\n";
+                    }
+                } else {
+                    cout << "Please select an unused square." << endl;
+                }
+            }
+        } else if (gameState == GAMEOVER) {
+            <#statements#>
         }
     }
+    
+    log += printTime();
+    log += " Game quit.\n";
+    
+    cout << log << endl;
+    
+    /*gameBoard[0][0] = 'O';
+    gameBoard[4][0] = 'O';
+    gameBoard[8][0] = 'O';
+    
+    if (checkWin(gameBoard)) {
+        cout << "You win" << endl;
+    } else {
+        cout << "You lose" << endl;
+    }*/
     
     cout << "Goodbye" << endl;
     
@@ -100,7 +179,7 @@ main(int argc, char * const argv[]) {
 }
 
 void
-switchPlayer(Player currentPlayer) {
+switchPlayer(Player &currentPlayer) {
     if (currentPlayer == X) {
         currentPlayer = O;
     } else {
@@ -109,10 +188,79 @@ switchPlayer(Player currentPlayer) {
 }
 
 void
-printGameBoard(char gameBoard[3][3]) {
-    cout << gameBoard[0][0] << "|" << gameBoard[0][1] << "|" << gameBoard[0][2] << endl;
+printGameBoard(char gameBoard[9][2]) {
+    cout << gameBoard[0][0] << "|" << gameBoard[1][0] << "|" << gameBoard[2][0] << endl;
     cout << "-" << "|" << "-" << "|" << "-" << endl;
-    cout << gameBoard[1][0] << "|" << gameBoard[1][1] << "|" << gameBoard[1][2] << endl;
+    cout << gameBoard[3][0] << "|" << gameBoard[4][0] << "|" << gameBoard[5][0] << endl;
     cout << "-" << "|" << "-" << "|" << "-" << endl;
-    cout << gameBoard[2][0] << "|" << gameBoard[2][1] << "|" << gameBoard[2][2] << endl;
+    cout << gameBoard[6][0] << "|" << gameBoard[7][0] << "|" << gameBoard[8][0] << endl;
+}
+
+string
+printTime() {
+    string  temp;
+    time_t  rawtime;
+    tm      *timeinfo;
+    
+    // Get the current time and save it to a string.
+    time(&rawtime);
+    timeinfo =  localtime(&rawtime);
+    temp =      asctime(timeinfo);
+    
+    // Remove the newline that the asctime function returns.
+    temp[temp.size() - 1] = '\0';
+    
+    return temp;
+}
+
+bool
+checkWin(char gameBoard[9][2]) {
+    // Check all 8 ways of winning.
+    // If all the characters of any of these paths have the same characters, we
+    // have a win.  If all of these have one of each marker in them, then we 
+    // have a draw.
+    
+    // check 0, 1, 2
+    if (checkPath(gameBoard[0][0], gameBoard[1][0], gameBoard[2][0])) {
+        return true;
+    }
+    // check 3, 4, 5
+    else if (checkPath(gameBoard[3][0], gameBoard[4][0], gameBoard[5][0])) {
+        return true;
+    }
+    // check 6, 7, 8
+    else if (checkPath(gameBoard[6][0], gameBoard[7][0], gameBoard[8][0])) {
+        return true;
+    }
+    // check 0, 3, 6
+    else if (checkPath(gameBoard[0][0], gameBoard[3][0], gameBoard[6][0])) {
+        return true;
+    }
+    // check 1, 4, 7
+    else if (checkPath(gameBoard[1][0], gameBoard[4][0], gameBoard[7][0])) {
+        return true;
+    }
+    // check 2, 5, 8
+    else if (checkPath(gameBoard[2][0], gameBoard[5][0], gameBoard[8][0])) {
+        return true;
+    }
+    // check 0, 4, 7
+    else if (checkPath(gameBoard[0][0], gameBoard[4][0], gameBoard[8][0])) {
+        return true;
+    }
+    // check 6, 4, 2
+    else if (checkPath(gameBoard[6][0], gameBoard[4][0], gameBoard[2][0])) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+bool
+checkPath(char square1, char square2, char square3) {
+    if ((square1 == square2) && (square1 == square3)) {
+        return true;
+    } else {
+        return false;
+    }
 }
