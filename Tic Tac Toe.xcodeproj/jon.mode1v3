@@ -325,14 +325,18 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FC998289129B6C3B00771D6B</string>
+										<string>FC9982FE129B7E0000771D6B</string>
 										<key>history</key>
 										<array>
-											<string>FC6393ED129A393C00EAF766</string>
-											<string>FC6393EE129A393C00EAF766</string>
 											<string>FC6393EF129A393C00EAF766</string>
 											<string>FC6393F0129A393C00EAF766</string>
-											<string>FC998288129B6C3B00771D6B</string>
+											<string>FC9982F7129B7E0000771D6B</string>
+											<string>FC9982F8129B7E0000771D6B</string>
+											<string>FC9982F9129B7E0000771D6B</string>
+											<string>FC9982FA129B7E0000771D6B</string>
+											<string>FC9982FB129B7E0000771D6B</string>
+											<string>FC9982FC129B7E0000771D6B</string>
+											<string>FC9982FD129B7E0000771D6B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -561,23 +565,25 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>main.cc</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {500, 218}}</string>
+								<string>{{0, 0}, {944, 287}}</string>
 								<key>RubberWindowFrame</key>
-								<string>347 276 500 500 0 0 1440 878 </string>
+								<string>347 207 944 569 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>218pt</string>
+							<string>287pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -592,9 +598,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 223}, {500, 236}}</string>
+								<string>{{0, 292}, {944, 236}}</string>
 								<key>RubberWindowFrame</key>
-								<string>347 276 500 500 0 0 1440 878 </string>
+								<string>347 207 944 569 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -603,7 +609,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>459pt</string>
+					<string>528pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -626,7 +632,7 @@
 			<key>WindowContentMinSize</key>
 			<string>486 300</string>
 			<key>WindowString</key>
-			<string>347 276 500 500 0 0 1440 878 </string>
+			<string>347 207 944 569 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>FC28419712948A55006FFC19</string>
 			<key>WindowToolIsVisible</key>

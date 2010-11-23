@@ -8,6 +8,7 @@
 			8DD76F620486A84900D96B5E /* Tic Tac Toe */,
 		);
 		breakpoints = (
+			FC9982AE129B706900771D6B /* main.cc:54 */,
 		);
 		codeSenseManager = FC28419A12948A55006FFC19 /* Code sense */;
 		executables = (
@@ -54,6 +55,22 @@
 			FC99822A129B5E2200771D6B /* PBXTextBookmark */ = FC99822A129B5E2200771D6B /* PBXTextBookmark */;
 			FC998288129B6C3B00771D6B /* PBXTextBookmark */ = FC998288129B6C3B00771D6B /* PBXTextBookmark */;
 			FC998289129B6C3B00771D6B /* PBXTextBookmark */ = FC998289129B6C3B00771D6B /* PBXTextBookmark */;
+			FC9982A8129B6EF600771D6B /* XCBuildMessageTextBookmark */ = FC9982A8129B6EF600771D6B /* XCBuildMessageTextBookmark */;
+			FC9982A9129B6EF600771D6B /* PBXTextBookmark */ = FC9982A9129B6EF600771D6B /* PBXTextBookmark */;
+			FC9982C6129B7A4D00771D6B /* PBXTextBookmark */ = FC9982C6129B7A4D00771D6B /* PBXTextBookmark */;
+			FC9982C7129B7A4D00771D6B /* XCBuildMessageTextBookmark */ = FC9982C7129B7A4D00771D6B /* XCBuildMessageTextBookmark */;
+			FC9982C8129B7A4D00771D6B /* PBXTextBookmark */ = FC9982C8129B7A4D00771D6B /* PBXTextBookmark */;
+			FC9982CD129B7A7300771D6B /* PBXTextBookmark */ = FC9982CD129B7A7300771D6B /* PBXTextBookmark */;
+			FC9982CE129B7A7300771D6B /* XCBuildMessageTextBookmark */ = FC9982CE129B7A7300771D6B /* XCBuildMessageTextBookmark */;
+			FC9982CF129B7A7300771D6B /* PBXTextBookmark */ = FC9982CF129B7A7300771D6B /* PBXTextBookmark */;
+			FC9982F7129B7E0000771D6B /* PBXTextBookmark */ = FC9982F7129B7E0000771D6B /* PBXTextBookmark */;
+			FC9982F8129B7E0000771D6B /* PBXTextBookmark */ = FC9982F8129B7E0000771D6B /* PBXTextBookmark */;
+			FC9982F9129B7E0000771D6B /* PBXTextBookmark */ = FC9982F9129B7E0000771D6B /* PBXTextBookmark */;
+			FC9982FA129B7E0000771D6B /* PBXTextBookmark */ = FC9982FA129B7E0000771D6B /* PBXTextBookmark */;
+			FC9982FB129B7E0000771D6B /* PBXTextBookmark */ = FC9982FB129B7E0000771D6B /* PBXTextBookmark */;
+			FC9982FC129B7E0000771D6B /* PBXTextBookmark */ = FC9982FC129B7E0000771D6B /* PBXTextBookmark */;
+			FC9982FD129B7E0000771D6B /* PBXTextBookmark */ = FC9982FD129B7E0000771D6B /* PBXTextBookmark */;
+			FC9982FE129B7E0000771D6B /* PBXTextBookmark */ = FC9982FE129B7E0000771D6B /* PBXTextBookmark */;
 		};
 		sourceControlManager = FC28419912948A55006FFC19 /* Source Control */;
 		userBuildSettings = {
@@ -61,10 +78,9 @@
 	};
 	08FB7796FE84155DC02AAC07 /* main.cc */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            l = statements;\n            r = \"{4136, 14}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 6923}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {764, 3471}}";
-			sepNavSelRange = "{4120, 0}";
-			sepNavVisRange = "{2531, 1351}";
+			sepNavIntBoundsRect = "{{0, 0}, {764, 3770}}";
+			sepNavSelRange = "{841, 0}";
+			sepNavVisRange = "{555, 538}";
 		};
 	};
 	8DD76F620486A84900D96B5E /* Tic Tac Toe */ = {
@@ -121,7 +137,7 @@
 	};
 	FC28419C12948B6E006FFC19 /* Paths.hh */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 426}}";
+			sepNavIntBoundsRect = "{{0, 0}, {764, 468}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 137}";
 		};
@@ -135,7 +151,7 @@
 	};
 	FC28419F12948B77006FFC19 /* Path.hh */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 426}}";
+			sepNavIntBoundsRect = "{{0, 0}, {764, 468}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 136}";
 		};
@@ -191,7 +207,7 @@
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cc */;
 		rLen = 1;
-		rLoc = 181;
+		rLoc = 61;
 		rType = 1;
 	};
 	FC74694B129AE5D800BECB4E /* PBXTextBookmark */ = {
@@ -199,7 +215,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cc */;
 		name = "main.cc: 91";
 		rLen = 0;
-		rLoc = 2832;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 1044;
 		vrLoc = 1056;
@@ -209,7 +225,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cc */;
 		name = "main.cc: 91";
 		rLen = 0;
-		rLoc = 2832;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 1043;
 		vrLoc = 1056;
@@ -219,7 +235,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cc */;
 		name = "main.cc: 162";
 		rLen = 0;
-		rLoc = 5095;
+		rLoc = 1467;
 		rType = 0;
 		vrLen = 864;
 		vrLoc = 3253;
@@ -229,7 +245,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cc */;
 		name = "main.cc: 162";
 		rLen = 0;
-		rLoc = 5095;
+		rLoc = 1467;
 		rType = 0;
 		vrLen = 947;
 		vrLoc = 3255;
@@ -239,7 +255,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cc */;
 		name = "main.cc: 173";
 		rLen = 0;
-		rLoc = 5095;
+		rLoc = 1467;
 		rType = 0;
 		vrLen = 904;
 		vrLoc = 3806;
@@ -249,7 +265,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cc */;
 		name = "main.cc: 85";
 		rLen = 0;
-		rLoc = 1782;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 1066;
 		vrLoc = 2721;
@@ -259,7 +275,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cc */;
 		name = "main.cc: 154";
 		rLen = 0;
-		rLoc = 4248;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 3884;
@@ -269,7 +285,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cc */;
 		name = "main.cc: 225";
 		rLen = 0;
-		rLoc = 5451;
+		rLoc = 1823;
 		rType = 0;
 		vrLen = 570;
 		vrLoc = 5073;
@@ -279,9 +295,213 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.cc */;
 		name = "main.cc: 156";
 		rLen = 0;
-		rLoc = 4120;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 1351;
 		vrLoc = 2531;
+	};
+	FC99828A129B6C9000771D6B /* Player.hh */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {764, 468}}";
+			sepNavSelRange = "{474, 0}";
+			sepNavVisRange = "{0, 523}";
+		};
+	};
+	FC99828B129B6C9000771D6B /* Player.cc */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {764, 468}}";
+			sepNavSelRange = "{158, 0}";
+			sepNavVisRange = "{0, 161}";
+		};
+	};
+	FC9982A8129B6EF600771D6B /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Player.h: No such file or directory";
+		fRef = FC99828B129B6C9000771D6B /* Player.cc */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 9;
+		rType = 1;
+	};
+	FC9982A9129B6EF600771D6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC99828B129B6C9000771D6B /* Player.cc */;
+		name = "Player.cc: 10";
+		rLen = 0;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 160;
+		vrLoc = 0;
+	};
+	FC9982AE129B706900771D6B /* main.cc:54 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.cc */;
+		functionName = "main(int argc, char * const argv[])";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 54;
+		location = "Tic Tac Toe";
+		modificationTime = 312176749.648537;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	FC9982B2129B70DE00771D6B /* GameBoard.hh */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {764, 468}}";
+			sepNavSelRange = "{370, 33}";
+			sepNavVisRange = "{0, 622}";
+			sepNavWindowFrame = "{{15, 68}, {783, 805}}";
+		};
+	};
+	FC9982B3129B70DE00771D6B /* GameBoard.cc */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {764, 1261}}";
+			sepNavSelRange = "{267, 0}";
+			sepNavVisRange = "{0, 829}";
+		};
+	};
+	FC9982C6129B7A4D00771D6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC99828B129B6C9000771D6B /* Player.cc */;
+		name = "Player.cc: 10";
+		rLen = 0;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 161;
+		vrLoc = 0;
+	};
+	FC9982C7129B7A4D00771D6B /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Prototype for 'bool GameBoard::checkPath(int, int, int)' does not match any in class 'GameBoard'";
+		fRef = FC9982B3129B70DE00771D6B /* GameBoard.cc */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 90;
+		rType = 1;
+	};
+	FC9982C8129B7A4D00771D6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC9982B3129B70DE00771D6B /* GameBoard.cc */;
+		name = "GameBoard.cc: 86";
+		rLen = 0;
+		rLoc = 1948;
+		rType = 0;
+		vrLen = 449;
+		vrLoc = 1668;
+	};
+	FC9982CD129B7A7300771D6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC9982B3129B70DE00771D6B /* GameBoard.cc */;
+		name = "GameBoard.cc: 86";
+		rLen = 0;
+		rLoc = 1948;
+		rType = 0;
+		vrLen = 449;
+		vrLoc = 1668;
+	};
+	FC9982CE129B7A7300771D6B /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Unused variable 'marker'";
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cc */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 53;
+		rType = 1;
+	};
+	FC9982CF129B7A7300771D6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cc */;
+		name = "main.cc: 57";
+		rLen = 0;
+		rLoc = 841;
+		rType = 0;
+		vrLen = 490;
+		vrLoc = 682;
+	};
+	FC9982F7129B7E0000771D6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC28419C12948B6E006FFC19 /* Paths.hh */;
+		name = "Paths.hh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 137;
+		vrLoc = 0;
+	};
+	FC9982F8129B7E0000771D6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC28419F12948B77006FFC19 /* Path.hh */;
+		name = "Path.hh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 136;
+		vrLoc = 0;
+	};
+	FC9982F9129B7E0000771D6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC99828A129B6C9000771D6B /* Player.hh */;
+		name = "Player.hh: 26";
+		rLen = 0;
+		rLoc = 474;
+		rType = 0;
+		vrLen = 523;
+		vrLoc = 0;
+	};
+	FC9982FA129B7E0000771D6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC99828B129B6C9000771D6B /* Player.cc */;
+		name = "Player.cc: 10";
+		rLen = 0;
+		rLoc = 158;
+		rType = 0;
+		vrLen = 161;
+		vrLoc = 0;
+	};
+	FC9982FB129B7E0000771D6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC9982B2129B70DE00771D6B /* GameBoard.hh */;
+		name = "GameBoard.hh: 26";
+		rLen = 33;
+		rLoc = 370;
+		rType = 0;
+		vrLen = 622;
+		vrLoc = 0;
+	};
+	FC9982FC129B7E0000771D6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC9982B3129B70DE00771D6B /* GameBoard.cc */;
+		name = "GameBoard.cc: 17";
+		rLen = 0;
+		rLoc = 267;
+		rType = 0;
+		vrLen = 829;
+		vrLoc = 0;
+	};
+	FC9982FD129B7E0000771D6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cc */;
+		name = "main.cc: 189";
+		rLen = 0;
+		rLoc = 841;
+		rType = 0;
+		vrLen = 972;
+		vrLoc = 6348;
+	};
+	FC9982FE129B7E0000771D6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cc */;
+		name = "main.cc: 54";
+		rLen = 0;
+		rLoc = 841;
+		rType = 0;
+		vrLen = 538;
+		vrLoc = 555;
 	};
 }

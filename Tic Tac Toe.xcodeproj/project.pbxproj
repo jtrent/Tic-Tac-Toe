@@ -11,6 +11,8 @@
 		8DD76F6A0486A84900D96B5E /* Tic Tac Toe.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* Tic Tac Toe.1 */; };
 		FC28419E12948B6E006FFC19 /* Paths.cc in Sources */ = {isa = PBXBuildFile; fileRef = FC28419D12948B6E006FFC19 /* Paths.cc */; };
 		FC2841A112948B77006FFC19 /* Path.cc in Sources */ = {isa = PBXBuildFile; fileRef = FC2841A012948B77006FFC19 /* Path.cc */; };
+		FC99828C129B6C9000771D6B /* Player.cc in Sources */ = {isa = PBXBuildFile; fileRef = FC99828B129B6C9000771D6B /* Player.cc */; };
+		FC9982B4129B70DE00771D6B /* GameBoard.cc in Sources */ = {isa = PBXBuildFile; fileRef = FC9982B3129B70DE00771D6B /* GameBoard.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,10 @@
 		FC28419D12948B6E006FFC19 /* Paths.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Paths.cc; sourceTree = "<group>"; };
 		FC28419F12948B77006FFC19 /* Path.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Path.hh; sourceTree = "<group>"; };
 		FC2841A012948B77006FFC19 /* Path.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Path.cc; sourceTree = "<group>"; };
+		FC99828A129B6C9000771D6B /* Player.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Player.hh; sourceTree = "<group>"; };
+		FC99828B129B6C9000771D6B /* Player.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cc; sourceTree = "<group>"; };
+		FC9982B2129B70DE00771D6B /* GameBoard.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameBoard.hh; sourceTree = "<group>"; };
+		FC9982B3129B70DE00771D6B /* GameBoard.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameBoard.cc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,10 @@
 				FC28419D12948B6E006FFC19 /* Paths.cc */,
 				FC28419F12948B77006FFC19 /* Path.hh */,
 				FC2841A012948B77006FFC19 /* Path.cc */,
+				FC99828A129B6C9000771D6B /* Player.hh */,
+				FC99828B129B6C9000771D6B /* Player.cc */,
+				FC9982B2129B70DE00771D6B /* GameBoard.hh */,
+				FC9982B3129B70DE00771D6B /* GameBoard.cc */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -131,6 +141,8 @@
 				8DD76F650486A84900D96B5E /* main.cc in Sources */,
 				FC28419E12948B6E006FFC19 /* Paths.cc in Sources */,
 				FC2841A112948B77006FFC19 /* Path.cc in Sources */,
+				FC99828C129B6C9000771D6B /* Player.cc in Sources */,
+				FC9982B4129B70DE00771D6B /* GameBoard.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

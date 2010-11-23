@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 #include <time.h>
+#include "GameBoard.hh"
 
 using namespace std;
 
@@ -45,133 +46,12 @@ bool
 checkWin(char gameBoard[9][2]);
 bool
 checkPath(char square1, char square2, char square3);
+void
+game1();
 
 int
 main(int argc, char * const argv[]) {
-    GameState   gameState;
-    Player      currentPlayer;
-    string      input;
-    string      log;
-    char        gameBoard[9][2];
-    char        marker;
-    int         i;
-    int         j;
-    int         number;
-    int         square;
-    bool        hasGone;
-    
-    // Initialize variables.
-    gameState =     MAINMENU;
-    currentPlayer = X;
-    input =         "";
-    log =           "";
-    i =             0;
-    j =             0;
-    number =        49;
-    square =        0;
-    hasGone =       false;
-    
-    // Initialize gameBoard.
-    for (i = 0; i < 9; i++) {
-        gameBoard[i][0] = (char)number;
-        gameBoard[i][1] = '0';
-        number++;
-    }
-    
-    log += printTime();
-    log += " Program started\n";
-    
-    while (input != "q") {
-        if (gameState == MAINMENU) {
-            cout << "Welcome to Tic Tac Toe" << endl;
-            cout << "Type [s] to start" << endl;
-            cout << "Type [q] to quit" << endl;
-            
-            cin >> input;
-            
-            // If s is typed, we need to change the state to GAME to start playing.
-            if (input == "s") {
-                log += printTime();
-                log += " Game started\n";
-                
-                gameState = GAME;
-            }
-        } else if (gameState == GAME) {
-            cout << "Player ";
-            
-            if (currentPlayer == X) {
-                cout << "X";
-            } else {
-                cout << "O";
-            }
-            
-            cout << endl;
-            cout << "Please type a number [1..9] to select your square." << endl;
-            cout << "Then type [n] to switch to the next player." << endl;
-            
-            printGameBoard(gameBoard);
-            
-            // int square = atoi(input.c_str());
-            // if input is n, switch to next player
-            // else if input is a number...
-            //   if number isn't taken, update the square with player's marker.
-            //   else, number is taken, try again.
-            
-            cin >> input;
-            
-            if (input == "n") {
-                switchPlayer(currentPlayer);
-                hasGone = false;
-            } else if (input != "q") {
-                square = atoi(input.c_str()) - 1;
-                
-                if (gameBoard[square][1] == '0') {
-                    if (currentPlayer == X) {
-                        marker = 'X';
-                    } else {
-                        marker = 'O';
-                    }
-                    
-                    gameBoard[square][0] = marker;
-                    gameBoard[square][1] = 1;
-                    
-                    if (!hasGone) {
-                        hasGone = true;
-                    } else {
-                        log += printTime();
-                        log += " Player ";
-                        
-                        if (currentPlayer == X) {
-                            log += "X";
-                        } else {
-                            log += "O";
-                        }
-                        
-                        log += " went again\n";
-                    }
-                } else {
-                    cout << "Please select an unused square." << endl;
-                }
-            }
-        } else if (gameState == GAMEOVER) {
-            <#statements#>
-        }
-    }
-    
-    log += printTime();
-    log += " Game quit.\n";
-    
-    cout << log << endl;
-    
-    /*gameBoard[0][0] = 'O';
-    gameBoard[4][0] = 'O';
-    gameBoard[8][0] = 'O';
-    
-    if (checkWin(gameBoard)) {
-        cout << "You win" << endl;
-    } else {
-        cout << "You lose" << endl;
-    }*/
+    game1();
     
     cout << "Goodbye" << endl;
     
@@ -263,4 +143,127 @@ checkPath(char square1, char square2, char square3) {
     } else {
         return false;
     }
+}
+
+void
+game1() {
+    GameState   gameState;
+    Player      currentPlayer;
+    string      input;
+    string      log;
+    char        gameBoard[9][2];
+    char        marker;
+    int         i;
+    int         j;
+    int         number;
+    int         square;
+    bool        hasGone;
+    
+    // Initialize variables.
+    gameState =     MAINMENU;
+    currentPlayer = X;
+    input =         "";
+    log =           "";
+    i =             0;
+    j =             0;
+    number =        49;
+    square =        0;
+    hasGone =       false;
+    
+    // Initialize gameBoard.
+    for (i = 0; i < 9; i++) {
+        gameBoard[i][0] = (char)number;
+        gameBoard[i][1] = '0';
+        number++;
+    }
+    
+    log += printTime();
+    log += " Tic-Tac-Toe started\n";
+    
+    while (input != "q") {
+        if (gameState == MAINMENU) {
+            cout << "Welcome to Tic Tac Toe" << endl;
+            cout << "Type [s] to start" << endl;
+            cout << "Type [q] to quit" << endl;
+            
+            cin >> input;
+            
+            // If s is typed, we need to change the state to GAME to start playing.
+            if (input == "s") {
+                log += printTime();
+                log += " Game started\n";
+                
+                gameState = GAME;
+            }
+        } else if (gameState == GAME) {
+            cout << "Player ";
+            
+            if (currentPlayer == X) {
+                cout << "X";
+            } else {
+                cout << "O";
+            }
+            
+            cout << endl;
+            cout << "Please type a number [1..9] to select your square." << endl;
+            cout << "Then type [n] to switch to the next player." << endl;
+            
+            printGameBoard(gameBoard);
+            
+            // int square = atoi(input.c_str());
+            // if input is n, switch to next player
+            // else if input is a number...
+            //   if number isn't taken, update the square with player's marker.
+            //   else, number is taken, try again.
+            
+            cin >> input;
+            
+            if (input == "n") {
+                switchPlayer(currentPlayer);
+                hasGone = false;
+            } else if (input != "q") {
+                square = atoi(input.c_str()) - 1;
+                
+                if (gameBoard[square][1] == '0') {
+                    if (currentPlayer == X) {
+                        marker = 'X';
+                    } else {
+                        marker = 'O';
+                    }
+                    
+                    gameBoard[square][0] = marker;
+                    gameBoard[square][1] = 1;
+                    
+                    if (!hasGone) {
+                        hasGone = true;
+                    } else {
+                        log += printTime();
+                        log += " Player ";
+                        
+                        if (currentPlayer == X) {
+                            log += "X";
+                        } else {
+                            log += "O";
+                        }
+                        
+                        log += " went again\n";
+                    }
+                    
+                    if (checkWin(gameBoard)) {
+                        gameState == GAMEOVER;
+                    }
+                } else {
+                    cout << "Please select an unused square." << endl;
+                }
+            }
+        } else if (gameState == GAMEOVER) {
+            cout << "Someone wins!!" << endl;
+            input = "q";
+        }
+    }
+    
+    log += printTime();
+    log += " Tic-Tac-Toe quit.\n";
+    
+    cout << log << endl;
 }
