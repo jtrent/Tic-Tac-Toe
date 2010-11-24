@@ -6,35 +6,40 @@
 #include <string>
 #include <time.h>
 #include "GameBoard.hh"
+#include "GameController.hh"
 
 using namespace std;
 
 // Various game states.
 // The state for the game during the game over condition.
-enum WinState {
+enum WinState
+{
     XWINS,
     OWINS,
     DRAW
 };
 
 // The state to mark if the path is still winable or not.
-enum PathState {
+enum PathState
+{
     CLEAN,
     DIRTY
 };
 
 // The states of the game.
-enum GameState {
+/*enum GameState
+{
     MAINMENU,
     GAME,
     GAMEOVER
-};
+};*/
 
 // State for which player's turn it is.
-enum Player {
+/*enum Player
+{
     X,
     O
-};
+};*/
 
 void
 switchPlayer(Player &currentPlayer);
@@ -48,10 +53,15 @@ bool
 checkPath(char square1, char square2, char square3);
 void
 game1();
+void
+game2();
+void
+game3();
 
 int
-main(int argc, char * const argv[]) {
-    game1();
+main(int argc, char * const argv[])
+{
+    game3();
     
     cout << "Goodbye" << endl;
     
@@ -59,16 +69,18 @@ main(int argc, char * const argv[]) {
 }
 
 void
-switchPlayer(Player &currentPlayer) {
-    if (currentPlayer == X) {
+switchPlayer(Player &currentPlayer)
+{
+    /*if (currentPlayer == X) {
         currentPlayer = O;
     } else {
         currentPlayer = X;
-    }
+    }*/
 }
 
 void
-printGameBoard(char gameBoard[9][2]) {
+printGameBoard(char gameBoard[9][2])
+{
     cout << gameBoard[0][0] << "|" << gameBoard[1][0] << "|" << gameBoard[2][0] << endl;
     cout << "-" << "|" << "-" << "|" << "-" << endl;
     cout << gameBoard[3][0] << "|" << gameBoard[4][0] << "|" << gameBoard[5][0] << endl;
@@ -77,7 +89,8 @@ printGameBoard(char gameBoard[9][2]) {
 }
 
 string
-printTime() {
+printTime()
+{
     string  temp;
     time_t  rawtime;
     tm      *timeinfo;
@@ -94,7 +107,8 @@ printTime() {
 }
 
 bool
-checkWin(char gameBoard[9][2]) {
+checkWin(char gameBoard[9][2])
+{
     // Check all 8 ways of winning.
     // If all the characters of any of these paths have the same characters, we
     // have a win.  If all of these have one of each marker in them, then we 
@@ -137,7 +151,8 @@ checkWin(char gameBoard[9][2]) {
 }
 
 bool
-checkPath(char square1, char square2, char square3) {
+checkPath(char square1, char square2, char square3)
+{
     if ((square1 == square2) && (square1 == square3)) {
         return true;
     } else {
@@ -146,9 +161,10 @@ checkPath(char square1, char square2, char square3) {
 }
 
 void
-game1() {
-    GameState   gameState;
-    Player      currentPlayer;
+game1()
+{
+    /*GameState   gameState;
+    //Player      currentPlayer;
     string      input;
     string      log;
     char        gameBoard[9][2];
@@ -161,7 +177,7 @@ game1() {
     
     // Initialize variables.
     gameState =     MAINMENU;
-    currentPlayer = X;
+    //currentPlayer = X;
     input =         "";
     log =           "";
     i =             0;
@@ -198,13 +214,13 @@ game1() {
         } else if (gameState == GAME) {
             cout << "Player ";
             
-            if (currentPlayer == X) {
+            /*if (currentPlayer == X) {
                 cout << "X";
             } else {
                 cout << "O";
-            }
+            }*/
             
-            cout << endl;
+            /*cout << endl;
             cout << "Please type a number [1..9] to select your square." << endl;
             cout << "Then type [n] to switch to the next player." << endl;
             
@@ -219,19 +235,19 @@ game1() {
             cin >> input;
             
             if (input == "n") {
-                switchPlayer(currentPlayer);
+                // switchPlayer(currentPlayer);
                 hasGone = false;
             } else if (input != "q") {
                 square = atoi(input.c_str()) - 1;
                 
                 if (gameBoard[square][1] == '0') {
-                    if (currentPlayer == X) {
+                    /*if (currentPlayer == X) {
                         marker = 'X';
                     } else {
                         marker = 'O';
-                    }
+                    }*/
                     
-                    gameBoard[square][0] = marker;
+                    /*gameBoard[square][0] = marker;
                     gameBoard[square][1] = 1;
                     
                     if (!hasGone) {
@@ -240,13 +256,13 @@ game1() {
                         log += printTime();
                         log += " Player ";
                         
-                        if (currentPlayer == X) {
+                        /*if (currentPlayer == X) {
                             log += "X";
                         } else {
                             log += "O";
-                        }
+                        }*/
                         
-                        log += " went again\n";
+                        /*log += " went again\n";
                     }
                     
                     if (checkWin(gameBoard)) {
@@ -265,5 +281,50 @@ game1() {
     log += printTime();
     log += " Tic-Tac-Toe quit.\n";
     
-    cout << log << endl;
+    cout << log << endl;*/
+}
+
+void
+game2()
+{
+    /*GameBoard   gameBoard;
+    GameState   gameState;
+    string      input;
+    bool        isExit;
+    
+    // Initialize variables.
+    gameState = MAINMENU;
+    input =     "";
+    isExit =    false;
+    
+    while (!isExit) {
+        if (gameState == MAINMENU) {
+            // Welcome user, prompt them to start or quit.
+            cout << "Main Menu" << endl;
+            isExit = true;
+        } else if (gameState == GAME) {
+            // Play the game.
+            cout << "Game" << endl;
+        } else if (gameState == GAMEOVER) {
+            // Game is over, play again or quit.
+            cout << "Game Over" << endl;
+        }
+    }
+    
+    gameBoard.print();*/
+}
+
+void
+game3()
+{
+    GameController  game;
+    string          input;
+    
+    while (game.running()) {
+        game.print();
+        cin >> input;
+        game.update(input);
+    }
+    
+    game.print();
 }

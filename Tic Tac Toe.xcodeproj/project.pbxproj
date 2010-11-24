@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		8DD76F650486A84900D96B5E /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cc */; settings = {ATTRIBUTES = (); }; };
 		8DD76F6A0486A84900D96B5E /* Tic Tac Toe.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* Tic Tac Toe.1 */; };
-		FC28419E12948B6E006FFC19 /* Paths.cc in Sources */ = {isa = PBXBuildFile; fileRef = FC28419D12948B6E006FFC19 /* Paths.cc */; };
-		FC2841A112948B77006FFC19 /* Path.cc in Sources */ = {isa = PBXBuildFile; fileRef = FC2841A012948B77006FFC19 /* Path.cc */; };
+		FC55B7CB129C9DE400C87E43 /* Label.cc in Sources */ = {isa = PBXBuildFile; fileRef = FC55B7CA129C9DE400C87E43 /* Label.cc */; };
 		FC99828C129B6C9000771D6B /* Player.cc in Sources */ = {isa = PBXBuildFile; fileRef = FC99828B129B6C9000771D6B /* Player.cc */; };
 		FC9982B4129B70DE00771D6B /* GameBoard.cc in Sources */ = {isa = PBXBuildFile; fileRef = FC9982B3129B70DE00771D6B /* GameBoard.cc */; };
+		FC998303129B813100771D6B /* GameController.cc in Sources */ = {isa = PBXBuildFile; fileRef = FC998302129B813100771D6B /* GameController.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,14 +32,14 @@
 		08FB7796FE84155DC02AAC07 /* main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
 		8DD76F6C0486A84900D96B5E /* Tic Tac Toe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tic Tac Toe"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859E8B029090EE04C91782 /* Tic Tac Toe.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "Tic Tac Toe.1"; sourceTree = "<group>"; };
-		FC28419C12948B6E006FFC19 /* Paths.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Paths.hh; sourceTree = "<group>"; };
-		FC28419D12948B6E006FFC19 /* Paths.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Paths.cc; sourceTree = "<group>"; };
-		FC28419F12948B77006FFC19 /* Path.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Path.hh; sourceTree = "<group>"; };
-		FC2841A012948B77006FFC19 /* Path.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Path.cc; sourceTree = "<group>"; };
+		FC55B7C9129C9DE400C87E43 /* Label.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Label.hh; sourceTree = "<group>"; };
+		FC55B7CA129C9DE400C87E43 /* Label.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Label.cc; sourceTree = "<group>"; };
 		FC99828A129B6C9000771D6B /* Player.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Player.hh; sourceTree = "<group>"; };
 		FC99828B129B6C9000771D6B /* Player.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cc; sourceTree = "<group>"; };
 		FC9982B2129B70DE00771D6B /* GameBoard.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameBoard.hh; sourceTree = "<group>"; };
 		FC9982B3129B70DE00771D6B /* GameBoard.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameBoard.cc; sourceTree = "<group>"; };
+		FC998301129B813100771D6B /* GameController.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameController.hh; sourceTree = "<group>"; };
+		FC998302129B813100771D6B /* GameController.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameController.cc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,14 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				08FB7796FE84155DC02AAC07 /* main.cc */,
-				FC28419C12948B6E006FFC19 /* Paths.hh */,
-				FC28419D12948B6E006FFC19 /* Paths.cc */,
-				FC28419F12948B77006FFC19 /* Path.hh */,
-				FC2841A012948B77006FFC19 /* Path.cc */,
 				FC99828A129B6C9000771D6B /* Player.hh */,
 				FC99828B129B6C9000771D6B /* Player.cc */,
 				FC9982B2129B70DE00771D6B /* GameBoard.hh */,
 				FC9982B3129B70DE00771D6B /* GameBoard.cc */,
+				FC998301129B813100771D6B /* GameController.hh */,
+				FC998302129B813100771D6B /* GameController.cc */,
+				FC55B7C9129C9DE400C87E43 /* Label.hh */,
+				FC55B7CA129C9DE400C87E43 /* Label.cc */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -139,10 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76F650486A84900D96B5E /* main.cc in Sources */,
-				FC28419E12948B6E006FFC19 /* Paths.cc in Sources */,
-				FC2841A112948B77006FFC19 /* Path.cc in Sources */,
 				FC99828C129B6C9000771D6B /* Player.cc in Sources */,
 				FC9982B4129B70DE00771D6B /* GameBoard.cc in Sources */,
+				FC998303129B813100771D6B /* GameController.cc in Sources */,
+				FC55B7CB129C9DE400C87E43 /* Label.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
