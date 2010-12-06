@@ -11,6 +11,19 @@ a log file is updated that details what move they have made and if they are
 moving out of turn or not.  The log is also noted when a player wins, and if
 there is a draw.
 
+* A note on the setup *
+Because I couldn't get the buttons to display images programmatically,
+I had to find a way around that.  I even tried compiling classmates 
+programs that did work, and the images would not display right.  Since
+I am developing this program on a Mac for another system, I had to find
+another way to develop it in a way that I knew would work on both systems.
+My workaround was to use a button per state, per square.  This way I could
+use Qt Creator to manually put the images on the buttons.  Then the 
+buttons were hidden depending on who's square it was, who's turn it was,
+and so on.  It is not the most efficient way to do this and resulted in
+me not being able to use arrays of buttons and other conventions that
+would have made the code look better.
+
 CONTENTS
 ------------------
 
