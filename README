@@ -1,0 +1,55 @@
+Copyright (c) 2010 Jon Trent
+For usage information see COPYING for copyright and license information.
+
+README -- Tic Tac Toe
+================
+
+This Tic Tac Toe game is designed to measure how well children play with each 
+other.  As children take their turns, they are given a choice to switch to 
+the next player, or to continue selecting squares.  When a child makes a move, 
+a log file is updated that details what move they have made and if they are 
+moving out of turn or not.  The log is also noted when a player wins, and if
+there is a draw.
+
+CONTENTS
+------------------
+
+COPYING
+images/B.bmp
+images/Background.bmp
+images/drawgame.bmp
+images/nextplayer.bmp
+images/O.bmp
+images/playero.bmp
+images/playerowins.bmp
+images/playerx.bmp
+images/playerxwins.bmp
+images/X.bmp
+main.cpp
+mainwindow.cpp
+mainwindow.h
+mainwindow.ui
+README
+TicTacToe.qrc
+ttt.pro
+ttt.pro.user
+
+INSTALL
+-------
+********************************************************************************
+To install on a linux computer, cd to ttt/.  Run qmake -project, then qmake to 
+generate the makefile.  Then run make to compile the program to produce the
+"ttt" executable.
+
+If there are problems running getting the make file to run, 
+run qmake-qt4, then qmake to generate the makefile.
+
+USAGE
+-----
+********************************************************************************
+Run the executable.  The game starts with a blank board and player X is the 
+first player to play.  The player presses the next button to switch to the next
+player, player O.  The players continue to mark their squares until a player 
+wins, or the there is a draw.  The players are prompted that someone won, or
+that there was a draw, and clicking anywhere on the screen will begin a new 
+game.

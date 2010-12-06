@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file alias="O">images/O.bmp</file>
+        <file alias="X">images/X.bmp</file>
+        <file alias="Back">images/Background.bmp</file>
+        <file alias="B">images/B.bmp</file>
+        <file alias="Next">images/nextplayer.bmp</file>
+        <file alias="PlayerO">images/playero.bmp</file>
+        <file alias="PlayerX">images/playerx.bmp</file>
+        <file>images/drawgame.bmp</file>
+        <file>images/playerowins.bmp</file>
+        <file>images/playerxwins.bmp</file>
+    </qresource>
+</RCC>
