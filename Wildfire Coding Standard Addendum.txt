@@ -5,3 +5,5 @@ I followed to make the code more uniform.
 
 Instead of variable and method names using the lower case convention,
 the lower camel one was used.
+
+Instead of naming files with the .cc or .hh extensions, Qt Creator uses .cpp and .h.

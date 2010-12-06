@@ -1,245 +1,0 @@
-TTic Tac Toe
-v7
-r0
-t312181679.001608
-cCheck dependencies
-cCompileC "build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/main.o" /Users/jon/Developer/Mercurial/tic-tac-toe/main.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC "build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/Paths.o" /Users/jon/Developer/Mercurial/tic-tac-toe/Paths.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC "build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/Path.o" /Users/jon/Developer/Mercurial/tic-tac-toe/Path.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC "build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/Player.o" /Users/jon/Developer/Mercurial/tic-tac-toe/Player.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC "build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/GameBoard.o" /Users/jon/Developer/Mercurial/tic-tac-toe/GameBoard.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC "build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/GameController.o" /Users/jon/Developer/Mercurial/tic-tac-toe/GameController.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004C84B2DF00000000000000EE
-t1283764959
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
-c000000004AC59C82000000000000178E
-t1254464642
-s6030
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/GameBoard.cc
-c000000004CEB452800000000000008A1
-t1290487080
-s2209
-i"GameBoard.hh"
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/GameBoard.h
-c000000004CEB395E000000000000008D
-t1290484062
-s141
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/GameBoard.hh
-c000000004CEB4A0C000000000000026E
-t1290488332
-s622
-i<iostream>
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/GameController.cc
-c000000004CEB4C1A0000000000000174
-t1290488858
-s372
-i"GameController.hh"
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/GameController.cpp
-c000000004CEB49B100000000000000B1
-t1290488241
-s177
-i"GameController.h"
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/GameController.h
-c000000004CEB49B10000000000000092
-t1290488241
-s146
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/GameController.hh
-c000000004CEB4B13000000000000022F
-t1290488595
-s559
-i"Player.hh"
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/Path.cc
-c000000004CEA0146000000000000009E
-t1290404166
-s158
-i"Path.hh"
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/Path.hh
-c000000004CE453F70000000000000088
-t1290032119
-s136
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/Paths.cc
-c000000004CEA014B00000000000000A0
-t1290404171
-s160
-i"Paths.hh"
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/Paths.hh
-c000000004CE453EE0000000000000089
-t1290032110
-s137
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/Player.cc
-c000000004CEB4B8E00000000000000FF
-t1290488718
-s255
-i"Player.hh"
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/Player.h
-c000000004CEB3510000000000000008A
-t1290482960
-s138
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/Player.hh
-c000000004CEB4A11000000000000020B
-t1290488337
-s523
-i<string>
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug/Tic Tac Toe
-t2
-s0
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/GameBoard.o
-t1290488878
-s72344
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/GameController.o
-t2
-s0
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/Path.o
-t1290488878
-s1420
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/Paths.o
-t1290488878
-s1420
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/Player.o
-t1290488878
-s28776
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/Tic Tac Toe.LinkFileList
-c000000004CEB4C2E00000000000002E2
-t1290488878
-s738
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/main.o
-t1290488878
-s82640
-
-N/Users/jon/Developer/Mercurial/tic-tac-toe/main.cc
-c000000004CEB498E0000000000001DFF
-t1290488206
-s7679
-i<iostream>
-i<string>
-i<time.h>
-i"GameBoard.hh"
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies312181678#312181678#0(0"0(0#1#0"8621390112#0"0#
-
-CCompileC "build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/GameBoard.o" /Users/jon/Developer/Mercurial/tic-tac-toe/GameBoard.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-s312181678.640072
-e312181679.001518
-r1
-xCompileC
-xbuild/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/GameBoard.o
-x/Users/jon/Developer/Mercurial/tic-tac-toe/GameBoard.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/jon/Developer/Mercurial/tic-tac-toe/GameBoard.cc312181678#312181679#0(0"0(0#0#55"/Users/jon/Developer/Mercurial/tic-tac-toe/GameBoard.cc8624530528#1430"    cd /Users/jon/Developer/Mercurial/tic-tac-toe    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-generated-files.hmap" "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-own-target-headers.hmap" "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-all-target-headers.hmap" -iquote "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-project-headers.hmap" -F/Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug -I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug/include "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/DerivedSources/x86_64" "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/DerivedSources" -c /Users/jon/Developer/Mercurial/tic-tac-toe/GameBoard.cc -o "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/GameBoard.o"0#
-
-CCompileC "build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/GameController.o" /Users/jon/Developer/Mercurial/tic-tac-toe/GameController.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-s312181678.771890
-e312181678.958194
-r0
-xCompileC
-xbuild/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/GameController.o
-x/Users/jon/Developer/Mercurial/tic-tac-toe/GameController.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-o/Users/jon/Developer/Mercurial/tic-tac-toe/GameController.cc: In constructor 'GameController::GameController()':
-o/Users/jon/Developer/Mercurial/tic-tac-toe/GameController.cc:12: error: no matching function for call to 'Player::Player()'
-o/Users/jon/Developer/Mercurial/tic-tac-toe/Player.hh:22: note: candidates are: Player::Player(std::string, char)
-o/Users/jon/Developer/Mercurial/tic-tac-toe/Player.hh:18: note:                 Player::Player(const Player&)
-o/Users/jon/Developer/Mercurial/tic-tac-toe/GameController.cc:12: error: no matching function for call to 'Player::Player()'
-o/Users/jon/Developer/Mercurial/tic-tac-toe/Player.hh:22: note: candidates are: Player::Player(std::string, char)
-o/Users/jon/Developer/Mercurial/tic-tac-toe/Player.hh:18: note:                 Player::Player(const Player&)
-lSLF07#2@68"Compile /Users/jon/Developer/Mercurial/tic-tac-toe/GameController.cc312181678#312181678#0(805"/Users/jon/Developer/Mercurial/tic-tac-toe/GameController.cc: In constructor 'GameController::GameController()':/Users/jon/Developer/Mercurial/tic-tac-toe/GameController.cc:12: error: no matching function for call to 'Player::Player()'/Users/jon/Developer/Mercurial/tic-tac-toe/Player.hh:22: note: candidates are: Player::Player(std::string, char)/Users/jon/Developer/Mercurial/tic-tac-toe/Player.hh:18: note:                 Player::Player(const Player&)/Users/jon/Developer/Mercurial/tic-tac-toe/GameController.cc:12: error: no matching function for call to 'Player::Player()'/Users/jon/Developer/Mercurial/tic-tac-toe/Player.hh:22: note: candidates are: Player::Player(std::string, char)/Users/jon/Developer/Mercurial/tic-tac-toe/Player.hh:18: note:                 Player::Player(const Player&)6(4@51"No matching function for call to 'Player::Player()'312181678#113#124#0(6@60"/Users/jon/Developer/Mercurial/tic-tac-toe/GameController.cc312181658#12#0#12#0#0"0(13@49"Candidates are: Player::Player(std::string, char)312181678#237#113#0(6@52"/Users/jon/Developer/Mercurial/tic-tac-toe/Player.hh312181137#22#0#22#0#0"0(13@29"Player::Player(const Player&)312181678#350#109#0(6@52"/Users/jon/Developer/Mercurial/tic-tac-toe/Player.hh312181137#18#0#18#0#0"0(4@51"No matching function for call to 'Player::Player()'312181678#459#124#0(6@60"/Users/jon/Developer/Mercurial/tic-tac-toe/GameController.cc312181658#12#0#12#0#0"0(13@49"Candidates are: Player::Player(std::string, char)312181678#583#113#0(6@52"/Users/jon/Developer/Mercurial/tic-tac-toe/Player.hh312181137#22#0#22#0#0"0(13@29"Player::Player(const Player&)312181678#696#109#0(6@52"/Users/jon/Developer/Mercurial/tic-tac-toe/Player.hh312181137#18#0#18#0#0"0(0#0#60"/Users/jon/Developer/Mercurial/tic-tac-toe/GameController.cc8621372192#1440"    cd /Users/jon/Developer/Mercurial/tic-tac-toe    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-generated-files.hmap" "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-own-target-headers.hmap" "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-all-target-headers.hmap" -iquote "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-project-headers.hmap" -F/Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug -I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug/include "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/DerivedSources/x86_64" "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/DerivedSources" -c /Users/jon/Developer/Mercurial/tic-tac-toe/GameController.cc -o "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/GameController.o"1#
-
-CCompileC "build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/GameController.o" /Users/jon/Developer/Mercurial/tic-tac-toe/GameController.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC "build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/Path.o" /Users/jon/Developer/Mercurial/tic-tac-toe/Path.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-s312181678.408587
-e312181678.431550
-r1
-xCompileC
-xbuild/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/Path.o
-x/Users/jon/Developer/Mercurial/tic-tac-toe/Path.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/jon/Developer/Mercurial/tic-tac-toe/Path.cc312181678#312181678#0(0"0(0#0#50"/Users/jon/Developer/Mercurial/tic-tac-toe/Path.cc8624404608#1420"    cd /Users/jon/Developer/Mercurial/tic-tac-toe    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-generated-files.hmap" "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-own-target-headers.hmap" "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-all-target-headers.hmap" -iquote "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-project-headers.hmap" -F/Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug -I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug/include "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/DerivedSources/x86_64" "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/DerivedSources" -c /Users/jon/Developer/Mercurial/tic-tac-toe/Path.cc -o "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/Path.o"0#
-
-CCompileC "build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/Paths.o" /Users/jon/Developer/Mercurial/tic-tac-toe/Paths.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-s312181678.365139
-e312181678.408491
-r1
-xCompileC
-xbuild/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/Paths.o
-x/Users/jon/Developer/Mercurial/tic-tac-toe/Paths.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/jon/Developer/Mercurial/tic-tac-toe/Paths.cc312181678#312181678#0(0"0(0#0#51"/Users/jon/Developer/Mercurial/tic-tac-toe/Paths.cc8625647104#1422"    cd /Users/jon/Developer/Mercurial/tic-tac-toe    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-generated-files.hmap" "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-own-target-headers.hmap" "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-all-target-headers.hmap" -iquote "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-project-headers.hmap" -F/Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug -I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug/include "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/DerivedSources/x86_64" "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/DerivedSources" -c /Users/jon/Developer/Mercurial/tic-tac-toe/Paths.cc -o "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/Paths.o"0#
-
-CCompileC "build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/Player.o" /Users/jon/Developer/Mercurial/tic-tac-toe/Player.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-s312181678.431644
-e312181678.639977
-r1
-xCompileC
-xbuild/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/Player.o
-x/Users/jon/Developer/Mercurial/tic-tac-toe/Player.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/jon/Developer/Mercurial/tic-tac-toe/Player.cc312181678#312181678#0(0"0(0#0#52"/Users/jon/Developer/Mercurial/tic-tac-toe/Player.cc8624214336#1424"    cd /Users/jon/Developer/Mercurial/tic-tac-toe    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-generated-files.hmap" "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-own-target-headers.hmap" "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-all-target-headers.hmap" -iquote "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-project-headers.hmap" -F/Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug -I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug/include "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/DerivedSources/x86_64" "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/DerivedSources" -c /Users/jon/Developer/Mercurial/tic-tac-toe/Player.cc -o "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/Player.o"0#
-
-CCompileC "build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/main.o" /Users/jon/Developer/Mercurial/tic-tac-toe/main.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-s312181678.363456
-e312181678.771800
-r1
-xCompileC
-xbuild/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/main.o
-x/Users/jon/Developer/Mercurial/tic-tac-toe/main.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/jon/Developer/Mercurial/tic-tac-toe/main.cc312181678#312181678#0(0"0(0#0#50"/Users/jon/Developer/Mercurial/tic-tac-toe/main.cc8625848800#1420"    cd /Users/jon/Developer/Mercurial/tic-tac-toe    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-generated-files.hmap" "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-own-target-headers.hmap" "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-all-target-headers.hmap" -iquote "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Tic Tac Toe-project-headers.hmap" -F/Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug -I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug/include "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/DerivedSources/x86_64" "-I/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/DerivedSources" -c /Users/jon/Developer/Mercurial/tic-tac-toe/main.cc -o "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/main.o"0#
-
-CLd "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug/Tic Tac Toe" normal x86_64
-s312181006.439521
-e312181006.458406
-r1
-xLd
-x/Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug/Tic Tac Toe
-xnormal
-xx86_64
-lSLF07#2@71"Link /Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug/Tic Tac Toe312181006#312181006#0(0"0(0#0#0"8625729280#538"    cd /Users/jon/Developer/Mercurial/tic-tac-toe    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug -F/Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug -filelist "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Tic Tac Toe.build/Debug/Tic Tac Toe.build/Objects-normal/x86_64/Tic Tac Toe.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/jon/Developer/Mercurial/tic-tac-toe/build/Debug/Tic Tac Toe"0#
-
